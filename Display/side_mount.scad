@@ -9,7 +9,7 @@ dimensions = [204.88, 5.75, 2];
 secondary = [dimensions[0], dimensions[2], dimensions[1] + _offset];
 
 screw_locations = [17.59, 79.15, 127.22, 186.67];
-screw_radius = 2/2;
+screw_radius = 1;
 
 difference(){
 translate([0, dimensions[2], 0])cube(dimensions);
